@@ -1,5 +1,6 @@
 package com.springboot.jpa.entity;
 
+import com.springboot.jpa.dto.UserResponse;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
