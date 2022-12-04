@@ -19,7 +19,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 
 import static org.junit.jupiter.api.Assertions.*;
-@WebMvcTest
+@WebMvcTest(UserRestController.class)
 class UserRestControllerTest {
 
     @Autowired
